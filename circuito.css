@@ -1,0 +1,152 @@
+.razones_pagina_web {
+    min-height: 120vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+
+}
+
+.cuadro_Razones {
+    color: black;
+    min-height: 30vh;
+    width: 40%;
+    border-radius: 54px;
+    border-top: 5rem solid #0099CC;
+    border-left: 0.5rem solid #0099CC;
+    border-right: 0.5rem solid #0099CC;
+    box-shadow: 4px 16px 20px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    z-index: 100;
+    background-color: #fff;
+
+}
+
+.cuadro_Razones_Header h4 {
+    color: #016080;
+
+}
+
+.cuadro_Razones h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.cuadro_Razones_Main {
+    padding: 2rem;
+
+}
+
+.cuadro_Razones_Main p {
+    margin: 1.2rem 0 1.2rem 0rem;
+
+}
+
+.cuadro_Razones_Main p,
+strong {
+    font-size: 1.6rem;
+}
+
+
+
+.contenedorCircuito {
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+
+    overflow: hidden;
+
+
+}
+
+
+.circuitoLeft {
+    max-width: 35vw;
+    position: relative;
+    top: 40%;
+
+
+}
+
+.circuitoRight {
+    max-width: 25vw;
+    position: relative;
+    top: -40%;
+    left: 70%;
+
+
+}
+
+.circuitoRight img {
+    transform: rotate(180deg);
+
+}
+
+@media screen and (max-width:767px) {
+    hr:nth-last-of-type(2n) {
+        display: none;
+    }
+
+    .razones_pagina_web {
+        min-height: 60vh;
+
+    }
+
+    .cuadro_Razones {
+
+        min-height: 55vh;
+        width: 90%;
+        border-radius: 22px;
+        padding: 0.5rem;
+        border-top: 2rem;
+
+    }
+
+    .cuadro_Razones h4 {
+        font-size: 1rem;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .cuadro_Razones_Main {
+        padding: 1rem;
+
+    }
+
+    .cuadro_Razones_Main p {
+        margin: 0.6rem 0 0.6rem 0rem;
+
+    }
+
+    .cuadro_Razones_Main p,
+    strong {
+        font-size: 0.7rem;
+    }
+
+    .contenedorCircuito {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .circuitoLeft {
+        max-width: 16vw;
+        position: relative;
+        top: 40%;
+
+    }
+
+    .circuitoRight {
+        max-width: 16vw;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        border: 2px solid red;
+
+    }
+
+
+
+
+}
